@@ -7,9 +7,9 @@ Output: a a_1 a_2 b c a_3 a_4 d c_1 d_1 d_2
 Для решения данной задачи используйте функцию
 .split()
 '''
-#user_list = input("Введите строку: ")
-#user_list = user_list.split()
-user_list = "a a a b c a a b b d c d d".split()
+user_list = input("Введите строку: ")
+user_list = user_list.split()
+#user_list = "a a a b c a a b b d c d d".split()
 print(user_list)
 new_dist = {}
 for i in user_list:
